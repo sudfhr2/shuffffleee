@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+fetch('/shuff.js')
+  .then(r => r.text())
+  .then(code => {
+    window.loadedShuffleScript = code;
+  });
+</script>
+</body>
+</html>
