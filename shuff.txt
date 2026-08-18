@@ -1,29 +1,3 @@
-// ==UserScript==
-// @name         shuffle script
-// @match        *://*.shuffle.com/*
-// @match        *://localhost/*
-// @match        *://127.0.0.1/*
-// @match        *://*.swapped.com/*
-// @match        *://*.sumsub.com/*
-// @match        *://*.onfido.com/*
-// @match        *://*.veriff.me/*
-// @match        *://js.stripe.com/*
-// @match        *://*.amazonaws.com/*
-// @match        *://*.cloudfront.net/*
-// @match        *://*.pragmaticplaylive.net/*
-// @match        *://*.pragmaticplay.net/*
-// @match        *://*.ppgames.net/*
-// @match        *://*.pragmaticplaylive.com/*
-// @match        *://*.gs2c.com/*
-// @match        *://*.gs2c.pragmaticplay.net/*
-// @grant        none
-// @connect      127.0.0.1
-// @connect      localhost
-// @author       scary.ltc @zzz-zzz-zzz-zzz-zzz
-// @Version      9.04-dynamic-deposit-receivers
-// @run-at       document-start
-// ==/UserScript==
-
 (function () {
   "use strict";
 
